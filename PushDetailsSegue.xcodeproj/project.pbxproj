@@ -16,6 +16,7 @@
 		50476B3414D09728000FE226 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50476B3214D09728000FE226 /* MainStoryboard.storyboard */; };
 		50476B3714D09728000FE226 /* LBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50476B3614D09728000FE226 /* LBMasterViewController.m */; };
 		50476B3A14D09728000FE226 /* LBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50476B3914D09728000FE226 /* LBDetailViewController.m */; };
+		50476B4214D09A6F000FE226 /* LBPushDetailSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 50476B4114D09A6F000FE226 /* LBPushDetailSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +24,19 @@
 		50476B2014D09728000FE226 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50476B2214D09728000FE226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50476B2414D09728000FE226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		50476B2814D09728000FE226 /* PushDetailsSegue-Info.plist */ = {isa = PBXFileReference; path = "PushDetailsSegue-Info.plist"; sourceTree = "<group>"; };
+		50476B2814D09728000FE226 /* PushDetailsSegue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushDetailsSegue-Info.plist"; sourceTree = "<group>"; };
 		50476B2A14D09728000FE226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50476B2C14D09728000FE226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50476B2E14D09728000FE226 /* PushDetailsSegue-Prefix.pch */ = {isa = PBXFileReference; path = "PushDetailsSegue-Prefix.pch"; sourceTree = "<group>"; };
-		50476B2F14D09728000FE226 /* LBAppDelegate.h */ = {isa = PBXFileReference; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		50476B2E14D09728000FE226 /* PushDetailsSegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushDetailsSegue-Prefix.pch"; sourceTree = "<group>"; };
+		50476B2F14D09728000FE226 /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
 		50476B3014D09728000FE226 /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
 		50476B3314D09728000FE226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		50476B3514D09728000FE226 /* LBMasterViewController.h */ = {isa = PBXFileReference; path = LBMasterViewController.h; sourceTree = "<group>"; };
+		50476B3514D09728000FE226 /* LBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBMasterViewController.h; sourceTree = "<group>"; };
 		50476B3614D09728000FE226 /* LBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMasterViewController.m; sourceTree = "<group>"; };
-		50476B3814D09728000FE226 /* LBDetailViewController.h */ = {isa = PBXFileReference; path = LBDetailViewController.h; sourceTree = "<group>"; };
+		50476B3814D09728000FE226 /* LBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBDetailViewController.h; sourceTree = "<group>"; };
 		50476B3914D09728000FE226 /* LBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBDetailViewController.m; sourceTree = "<group>"; };
+		50476B4014D09A6F000FE226 /* LBPushDetailSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBPushDetailSegue.h; sourceTree = "<group>"; };
+		50476B4114D09A6F000FE226 /* LBPushDetailSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBPushDetailSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				50476B3814D09728000FE226 /* LBDetailViewController.h */,
 				50476B3914D09728000FE226 /* LBDetailViewController.m */,
 				50476B2714D09728000FE226 /* Supporting Files */,
+				50476B4014D09A6F000FE226 /* LBPushDetailSegue.h */,
+				50476B4114D09A6F000FE226 /* LBPushDetailSegue.m */,
 			);
 			path = PushDetailsSegue;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				50476B3114D09728000FE226 /* LBAppDelegate.m in Sources */,
 				50476B3714D09728000FE226 /* LBMasterViewController.m in Sources */,
 				50476B3A14D09728000FE226 /* LBDetailViewController.m in Sources */,
+				50476B4214D09A6F000FE226 /* LBPushDetailSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

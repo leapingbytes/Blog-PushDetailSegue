@@ -1,5 +1,5 @@
 //
-//  LBDetailViewController.h
+//  LBPushDetailSeque.h
 //  PushDetailsSegue
 //
 //  Created by Andrei Tchijov on 1/25/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LBDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface LBPushDetailSegue : UIStoryboardSegue
 
 @end
